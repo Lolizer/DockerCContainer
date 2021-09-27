@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  web:
+    build: .
+    ports:
+      - "3856:3856"
+    hostname: ardnya.local.com
+    command: "bash -c '/usr/sbin/apache2ctl -D FOREGROUND'"
+    
