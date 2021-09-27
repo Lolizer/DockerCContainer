@@ -1,2 +1,2 @@
 # DockerCContainer
-Building dokuwiki + appache + php from php-apache image
+Building dokuwiki + apache + php from php-apache image
